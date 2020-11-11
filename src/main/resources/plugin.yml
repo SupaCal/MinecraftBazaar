@@ -1,0 +1,10 @@
+name: Bazaar
+version: ${project.version}
+main: me.supacal.bazaar.Bazaar
+api-version: 1.16
+commands:
+  bazaarnew:
+    description: Creates new bazaar
+    aliases: [bzn]
+  testchat:
+    description: sends a test chat message
